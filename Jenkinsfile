@@ -20,7 +20,7 @@ pipeline {
         )
         string(
             name: 'HTTP_PORT',
-            description: 'HTTP port for this site (required, e.g., 8080, 8081, 8082)',
+            description: 'HTTP port for this site (required, e.g 8081, 8082)',
             trim: true
         )
         password(
