@@ -124,7 +124,7 @@ Each site runs in complete isolation with:
 - ✅ Independent scaling and management
 
 # Jenkins Pipeline Setup Guide
-  Note: Change the docker username in Jenkinsfile and docker-compose.yaml
+  Note: Change the docker username in Jenkinsfile and docker-compose.yaml. Don't pass port 8080 as an argument as Jenkins use this port.
 
 
 ## Prerequisites
