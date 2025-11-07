@@ -16,6 +16,7 @@ Automated build and deployment pipeline for Frappe/ERPNext with custom apps supp
 - Docker and Docker Compose installed on your server
 - Self-hosted GitHub Actions runner configured
 - Docker Hub account (for storing images)
+  Note: Change the docker username in workflow file and docker-compose.yaml
 
 ## 🛠️ Setup Instructions
 
@@ -123,6 +124,8 @@ Each site runs in complete isolation with:
 - ✅ Independent scaling and management
 
 # Jenkins Pipeline Setup Guide
+  Note: Change the docker username in Jenkinsfile and docker-compose.yaml
+
 
 ## Prerequisites
 
